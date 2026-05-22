@@ -1,0 +1,90 @@
+baseURL: "https://danxudanxu.github.io/"
+title: Dan Xu
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+pagination:
+  pagerSize: 20
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: papers/
+          weight: 1
+        - name: CV
+          url: cv.pdf
+          weight: 2
+
+params:
+    description: "Dan Xu is a PhD student in economics at Rutgers University. His research interests include macro-finance, financial econometrics, and comparative US-China political economy."
+    author: Dan Xu
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["papers"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Dan Xu
+          subtitle: "I am a PhD student in economics at Rutgers University. My research interests include macro-finance, financial econometrics, and comparative US-China political economy."
+          imageUrl: "picture.jpeg"
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+            - name: Papers
+              url: papers/
+            - name: CV
+              url: cv.pdf
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:dan@danxu.info
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=PLACEHOLDER
+        - name: GitHub
+          url: https://github.com/danxudanxu
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/danxudanxu/
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Dan Xu"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
