@@ -5,4 +5,5 @@
 <a href="{{ .Params.editPost.URL | default site.Params.editPost.URL }}{{ if .Params.editPost.appendFilePath | default ( site.Params.editPost.appendFilePath | default false ) }}/{{ $fileUrlPath }}{{ end }}" rel="noopener noreferrer" target="_blank">
     {{- .Params.editPost.Text | default (site.Params.editPost.Text | default (i18n "edit_post" | default "Edit")) -}}
 </a>
+{{- range .Params.extraLinks }}&nbsp;&middot;&nbsp;<a href="{{ .URL }}" rel="noopener noreferrer" target="_blank">{{ .Text }}</a>{{- end }}
 {{- end }}

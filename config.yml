@@ -56,8 +56,6 @@ params:
               url: cv.pdf
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
           url: mailto:xu.dan@rutgers.edu
         - name: GitHub

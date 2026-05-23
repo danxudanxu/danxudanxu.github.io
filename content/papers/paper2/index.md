@@ -8,12 +8,9 @@ summary: "Replication and 17-year post-GFC extension of Tenreyro and Thwaites (2
 editPost:
     URL: "https://github.com/danxudanxu/pushing-on-a-string-zlb"
     Text: "GitHub repository"
----
-
-##### Download
-
-<a href="https://github.com/danxudanxu/pushing-on-a-string-zlb/raw/main/paper.pdf" target="_blank">Working paper PDF</a>
-
+extraLinks:
+    - URL: "https://github.com/danxudanxu/pushing-on-a-string-zlb/raw/main/paper.pdf"
+      Text: "Working paper PDF"
 ---
 
 ##### Abstract

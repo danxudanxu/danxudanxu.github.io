@@ -8,12 +8,9 @@ summary: "High-frequency event study examining how U.S. and Chinese equity marke
 editPost:
     URL: "https://github.com/danxudanxu/learning-to-price-political-risk"
     Text: "GitHub repository"
----
-
-##### Download
-
-<a href="https://github.com/danxudanxu/learning-to-price-political-risk/raw/main/paper.pdf" target="_blank">Working paper PDF</a>
-
+extraLinks:
+    - URL: "https://github.com/danxudanxu/learning-to-price-political-risk/raw/main/paper.pdf"
+      Text: "Working paper PDF"
 ---
 
 ##### Abstract
