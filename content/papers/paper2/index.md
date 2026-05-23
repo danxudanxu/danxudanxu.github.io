@@ -10,6 +10,10 @@ editPost:
     Text: "GitHub repository"
 ---
 
+##### Download
+
+<a href="https://github.com/danxudanxu/pushing-on-a-string-zlb/raw/main/paper.pdf" target="_blank">Working paper PDF</a>
+
 ---
 
 ##### Abstract
